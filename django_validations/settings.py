@@ -20,9 +20,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'mgs_qefmr0s6rqcx6*414njtsa_qblno4*^%yy!3o81)y4p2yo'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -79,8 +76,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'django_validations',
-        'HOST': 'localhost',
-        'PORT': '',
     }
 }
 
